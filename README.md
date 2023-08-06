@@ -11,6 +11,7 @@ The repo has a models folder which contains the custom_resnet_lightning_s10.py f
 **S10LightningModel** a LightningModule class.
 
 
+
 If the repo is cloned, then move the mainErav1 folder
 
 ```
@@ -33,7 +34,10 @@ We might have to install few packages for eg.
 Once the packages are installed, we have to import functionalities from main.py & utils.py
 can train & experiment with the model.
 
-The brief model summary & the training logs -
+### LRFinder graph- 
+<img width="770" alt="Screenshot 2023-08-06 at 9 47 31 AM" src="https://github.com/piygr/s12erav1/assets/135162847/698edd3b-0f06-4ac5-9e6d-b58b9957a5ba">
+
+### The brief model summary & the training logs -
 ```
 INFO:pytorch_lightning.callbacks.model_summary:
   | Name       | Type        | Params
@@ -154,6 +158,20 @@ Validation Loss:  0.23382949829101562  Accuracy:  92.44%  [ 9244 / 10000 ]
 
 INFO:pytorch_lightning.utilities.rank_zero:`Trainer.fit` stopped: `max_epochs=24` reached.
 ```
+
+### Missclassified images
+
+<img width="640" alt="Screenshot 2023-08-06 at 9 49 11 AM" src="https://github.com/piygr/s12erav1/assets/135162847/d5b7ccd2-fc82-4565-aa1a-fb508b329594">
+
+### GradCAM images
+
+<img width="682" alt="Screenshot 2023-08-06 at 9 49 23 AM" src="https://github.com/piygr/s12erav1/assets/135162847/fc688a76-471b-446b-86b4-589127f15ad2">
+
+### Model performance plots
+
+<img width="1011" alt="Screenshot 2023-08-06 at 9 49 57 AM" src="https://github.com/piygr/s12erav1/assets/135162847/61622c4a-fff0-4296-b42f-d9fe836ae957">
+<img width="1000" alt="Screenshot 2023-08-06 at 9 50 06 AM" src="https://github.com/piygr/s12erav1/assets/135162847/2c614ceb-f2c1-4202-994e-7f2e75571da0">
+
 
 
 
