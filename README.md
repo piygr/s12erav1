@@ -7,7 +7,7 @@ The notebook clones mainErav1.git repo using -
 !git clone https://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@github.com/piygr/mainErav1.git
 ```
 
-The repo has a models folder which contains the custom_resnet_lightning_s10.py file containing
+The repo has a models folder which contains the [custom_resnet_lightning_s10.py](https://github.com/piygr/mainErav1/blob/main/models/custom_resnet_lightning_s10.py) file containing
 **S10LightningModel** a LightningModule class.
 
 
